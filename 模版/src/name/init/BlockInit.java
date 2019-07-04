@@ -3,11 +3,14 @@ package name.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import name.objects.blocks.BlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.Item;
 
 public class BlockInit 
 {
-	public static final Block TEST = new BlockTest("test");
+	public static final List<Block> BLOCKS = new ArrayList<Block>();
+	
+	//Blocks
+	public static final Block EXAMPLE = new BlockBase("name", Material.GOURD);
 }

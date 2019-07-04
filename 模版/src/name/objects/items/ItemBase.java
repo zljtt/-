@@ -1,6 +1,10 @@
 package name.objects.items;
 
 
+import name.Main;
+import name.init.ItemInit;
+import name.interfaces.IHasModel;
+import name.objects.creativetabs.CreativetabItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

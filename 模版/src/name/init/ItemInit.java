@@ -2,11 +2,7 @@ package name.init;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import JWW.bookdimension.objects.items.ItemBase;
-import JWW.bookdimension.objects.items.ItemKnowledgeBook;
-import JWW.bookdimension.objects.items.ItemLoosePage;
-import JWW.bookdimension.objects.items.ItemSeedsKnowledge;
+import name.objects.items.ItemBase;
 import net.minecraft.item.Item;
 
 public class ItemInit 

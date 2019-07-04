@@ -1,6 +1,9 @@
 package name;
 
 
+import name.handlers.RegistryHandler;
+import name.proxy.ClientProxy;
+import name.util.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -24,7 +27,6 @@ public class Main
 	@SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
 	public static ClientProxy proxy;
 	
-//	public static final CreativeTabs BOOKITEM = new TutorialTab("tutorialtab");
 	
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event)

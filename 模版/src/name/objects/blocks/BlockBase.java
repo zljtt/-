@@ -1,6 +1,11 @@
 package name.objects.blocks;
 
 
+import name.Main;
+import name.init.BlockInit;
+import name.init.ItemInit;
+import name.interfaces.IHasModel;
+import name.objects.creativetabs.CreativetabBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
